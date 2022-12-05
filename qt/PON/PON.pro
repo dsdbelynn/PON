@@ -17,13 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    showform.cpp
 
 HEADERS += \
-    mainwindow.h \
+    mainwindow.h \ \
+    showform.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    showform.ui
 PRECOMPILED_HEADER =predef.h
 
 # Default rules for deployment.
